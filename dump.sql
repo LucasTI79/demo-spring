@@ -1,0 +1,12 @@
+CREATE USER 'admin'@'%' IDENTIFIED BY 'admin';
+GRANT ALL ON *.* TO 'admin'@'%';
+
+CREATE DATABASE IF NOT EXISTS spring;
+use spring;
+
+-- CREATE TABLE IF NOT EXISTS tbUsuarios(
+--   id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+--   nome VARCHAR(45) NOT NULL,
+--   email VARCHAR(45) NOT NULL,
+--   senha VARCHAR(45) NOT NULL
+-- );
